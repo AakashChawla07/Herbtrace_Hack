@@ -1,0 +1,62 @@
+[
+  {
+    "model": "traceability.herbspecies",
+    "pk": 1,
+    "fields": {
+      "name": "Ashwagandha",
+      "scientific_name": "Withania somnifera",
+      "family": "Solanaceae",
+      "description": "Adaptogenic herb known for stress relief and vitality",
+      "traditional_uses": "Stress, anxiety, insomnia, immune support",
+      "active_compounds": "Withanolides, alkaloids",
+      "harvest_season": "Winter",
+      "quality_parameters": {
+        "moisture_content": "< 10%",
+        "withanolide_content": "> 0.3%",
+        "ash_content": "< 10%"
+      },
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "traceability.herbspecies",
+    "pk": 2,
+    "fields": {
+      "name": "Turmeric",
+      "scientific_name": "Curcuma longa",
+      "family": "Zingiberaceae",
+      "description": "Anti-inflammatory herb with powerful healing properties",
+      "traditional_uses": "Inflammation, digestion, wound healing",
+      "active_compounds": "Curcumin, turmerones",
+      "harvest_season": "Winter",
+      "quality_parameters": {
+        "moisture_content": "< 12%",
+        "curcumin_content": "> 3%",
+        "ash_content": "< 9%"
+      },
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "traceability.herbspecies",
+    "pk": 3,
+    "fields": {
+      "name": "Brahmi",
+      "scientific_name": "Bacopa monnieri",
+      "family": "Plantaginaceae",
+      "description": "Cognitive enhancer and memory booster",
+      "traditional_uses": "Memory, concentration, anxiety",
+      "active_compounds": "Bacosides, saponins",
+      "harvest_season": "Monsoon",
+      "quality_parameters": {
+        "moisture_content": "< 8%",
+        "bacoside_content": "> 12%",
+        "ash_content": "< 15%"
+      },
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]
