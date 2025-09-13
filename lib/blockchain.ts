@@ -144,7 +144,7 @@ class HerbTraceBlockchain {
 
     // Geo-fencing validation (example: only allow collections in certain regions)
     if (event.location) {
-      const validRegions = ["Kerala", "Karnataka", "Tamil Nadu", "Andhra Pradesh"]
+      const validRegions = ["Kerala", "Karnataka", "Tamil Nadu", "Andhra Pradesh","Punjab"]
       const isValidRegion = validRegions.some((region) => event.location.region.includes(region))
       if (!isValidRegion) {
         errors.push("Collection location is outside authorized regions")
