@@ -3,6 +3,8 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.contrib.gis.admin import OSMGeoAdmin
 from .models import User, APIKey, UserSession, PasswordResetToken
 
+admin.site.site_title = "Herbtrace"
+admin.site.site_header="Herbtrace Admin Panel"
 @admin.register(User)
 class UserAdmin(BaseUserAdmin, OSMGeoAdmin):
     list_display = ['username', 'email', 'user_type', 'is_verified', 'is_active', 'created_at']
