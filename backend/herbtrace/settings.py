@@ -59,10 +59,10 @@ WSGI_APPLICATION = 'herbtrace.wsgi.application'
 # Database
 DATABASES = {
     'default': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': config('DB_NAME', default='herbtrace'),
         'USER': config('DB_USER', default='postgres'),
-        'PASSWORD': config('DB_PASSWORD', default='password'),
+        'PASSWORD': config('DB_PASSWORD', default='Aakash0701@'),
         'HOST': config('DB_HOST', default='localhost'),
         'PORT': config('DB_PORT', default='5432'),
     }
@@ -150,3 +150,5 @@ CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
 CELERY_TIMEZONE = TIME_ZONE
+
+GDAL_LIBRARY_PATH = r"C:\Program Files\GDAL\bin\gdal.dll"

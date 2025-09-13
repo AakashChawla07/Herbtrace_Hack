@@ -7,7 +7,7 @@ const mockHerbSpecies: HerbSpecies[] = [
     name: "Turmeric",
     scientificName: "Curcuma longa",
     category: "root",
-    harvestSeason: ["October", "November", "December"],
+    harvestSeason: ["September","October", "November", "December"],
     sustainabilityStatus: "abundant",
   },
   {
@@ -15,7 +15,7 @@ const mockHerbSpecies: HerbSpecies[] = [
     name: "Ashwagandha",
     scientificName: "Withania somnifera",
     category: "root",
-    harvestSeason: ["January", "February", "March"],
+    harvestSeason: ["September","January", "February", "March"],
     sustainabilityStatus: "moderate",
   },
   {
